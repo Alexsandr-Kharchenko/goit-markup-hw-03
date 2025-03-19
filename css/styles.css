@@ -99,8 +99,6 @@ img {
 
 .navigation-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts-link {
@@ -189,7 +187,7 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.soft-Skills {
+.soft-skill {
   background-color: #ffffff;
   padding-top: 120px;
   padding-bottom: 120px;
