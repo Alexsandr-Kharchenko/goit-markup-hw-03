@@ -23,38 +23,38 @@
     <!-- header -->
     <header class="header-page">
       <div class="container">
-        <nav class="header-navigation">
-          <a href="./index.html" class="header-logo"
-            >Web<span class="logo-s-part">Studio</span></a
-          >
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a href="./index.html" class="navigation-link">Studio</a>
-            </li>
-            <li class="navigation-item">
-              <a href="" class="navigation-link">Portfolio</a>
-            </li>
-            <li class="navigation-item">
-              <a href="" class="navigation-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-content">
+          <nav class="header-navigation">
+            <a href="./index.html" class="header-logo"
+              >Web<span class="logo-s-part">Studio</span></a
+            >
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="./index.html" class="navigation-link">Studio</a>
+              </li>
+              <li class="navigation-item">
+                <a href="" class="navigation-link">Portfolio</a>
+              </li>
+              <li class="navigation-item">
+                <a href="" class="navigation-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <address class="contacts">
-        <div class="container">
-          <ul class="contacts-list">
-            <li class="header-contacts-item">
-              <a href="mailto:info@devstudio.com" class="contacts-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts-items">
-              <a href="tel:+110001111111" class="contacts-link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="contacts-list">
+          <li class="contactr-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+110001111111" class="contacts-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </address>
     </header>
 
@@ -72,7 +72,7 @@
       <!-- soft-Skills -->
       <section class="soft-Skills">
         <div class="container">
-          <h2 hidden class="soft-Skills-title">Soft Skills</h2>
+          <h2 hidden class="visually-hidden">Soft Skills</h2>
           <ul class="soft-skills-list">
             <li class="soft-skills-item">
               <h3 class="soft-skills-subtitle">Strategy</h3>
@@ -121,8 +121,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-subtitle">Mark Guerrero</h3>
-              <p class="our-team-text">Product Designer</p>
+              <div our-team-content>
+                <h3 class="our-team-subtitle">Mark Guerrero</h3>
+                <p class="our-team-text">Product Designer</p>
+              </div>
             </li>
 
             <li class="our-team-item">
@@ -133,8 +135,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-subtitle">Tom Ford</h3>
-              <p class="our-team-text">Frontend Developer</p>
+              <div our-team-content>
+                <h3 class="our-team-subtitle">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="our-team-item">
@@ -145,8 +149,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-subtitle">Camila Garcia</h3>
-              <p class="our-team-text">Marketing</p>
+              <div our-team-content>
+                <h3 class="our-team-subtitle">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
+              </div>
             </li>
 
             <li class="our-team-item">
@@ -157,8 +163,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="our-team-subtitle">Daniel Wilson</h3>
-              <p class="our-team-text">UI Designer</p>
+              <div our-team-content>
+                <h3 class="our-team-subtitle">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -177,8 +185,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-subtitle">Banking App</h3>
-              <p class="our-portfolio-text">App</p>
+              <div class="our-portfolio-content">
+                <h3 class="our-portfolio-subtitle">Banking App</h3>
+                <p class="our-portfolio-text">App</p>
+              </div>
             </li>
             <li class="our-portfolio-item">
               <img
@@ -188,8 +198,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-subtitle">Cashless Payment</h3>
-              <p class="our-portfolio-text">Marketing</p>
+              <div class="our-portfolio-content">
+                <h3 class="our-portfolio-subtitle">Cashless Payment</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="our-portfolio-item">
               <img
@@ -199,8 +211,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-subtitle">Meditation App</h3>
-              <p class="our-portfolio-text">App</p>
+              <div class="our-portfolio-content">
+                <h3 class="our-portfolio-subtitle">Meditation App</h3>
+                <p class="our-portfolio-text">App</p>
+              </div>
             </li>
             <li class="our-portfolio-item">
               <img
@@ -209,8 +223,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-subtitle">Taxi Service</h3>
-              <p class="our-portfolio-text">Marketing</p>
+              <div class="our-portfolio-content">
+                <h3 class="our-portfolio-subtitle">Taxi Service</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="our-portfolio-item">
               <img
@@ -220,8 +236,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-subtitle">Screen Illustrations</h3>
-              <p class="our-portfolio-text">Design</p>
+              <div class="our-portfolio-content">
+                <h3 class="our-portfolio-subtitle">Screen Illustrations</h3>
+                <p class="our-portfolio-text">Design</p>
+              </div>
             </li>
             <li class="our-portfolio-item">
               <img
@@ -231,8 +249,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="our-portfolio-subtitle">Online Courses</h3>
-              <p class="our-portfolio-text">Marketing</p>
+              <div class="our-portfolio-content">
+                <h3 class="our-portfolio-subtitle">Online Courses</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -241,9 +261,11 @@
     <!-- footer -->
     <footer class="footer-page">
       <div class="container">
-        <a href="./index.html" class="footer-logo"
-          >Web <span class="logo-part">Studio</span></a
-        >
+        <div class="footer-link">
+          <a href="./index.html" class="footer-logo"
+            >Web <span class="logo-part">Studio</span></a
+          >
+        </div>
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
