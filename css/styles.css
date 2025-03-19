@@ -244,6 +244,9 @@ img {
 
 .our-team-item {
   background-color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 .our-team-subtitle {
@@ -315,7 +318,7 @@ img {
   color: #434455;
 }
 
-.our-portfolio-content {
+.section-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
