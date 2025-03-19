@@ -34,6 +34,7 @@ h5,
 h6 {
   margin: 0;
 }
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -77,6 +78,8 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation-link {
   font-size: 16px;
@@ -163,6 +166,12 @@ img {
 
 /* soft-Skills */
 
+.soft-skills {
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -184,14 +193,9 @@ img {
 
 .soft-skills-item {
   margin-right: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
-.soft-skill {
-  background-color: #ffffff;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .soft-Skills-title {
   font-weight: 500;
   font-size: 20px;
