@@ -80,6 +80,7 @@ img {
   gap: 40px;
 }
 .navigation-link {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -96,10 +97,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-}
-
-.navigation-item {
-  margin-right: 40px;
 }
 
 .contacts-link {
@@ -136,6 +133,9 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-btn {
@@ -152,6 +152,8 @@ img {
   border-radius: 4px;
   height: 56px;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-btn:hover,
@@ -242,12 +244,7 @@ img {
 
 .our-team-item {
   background-color: #ffffff;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-bottom: 8px;
-  margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 48px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -269,11 +266,10 @@ img {
   text-align: center;
   color: #434455;
 }
+
 .our-team-content {
   padding-top: 32px;
   padding-bottom: 32px;
-  text-align: center;
-  margin-bottom: 8px;
 }
 
 /* Our Portfolio */
@@ -284,7 +280,7 @@ img {
   padding-bottom: 120px;
 }
 .our-portfolio-title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -301,8 +297,6 @@ img {
   row-gap: 48px;
 }
 .our-portfolio-item {
-  margin-right: 24px;
-  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 
@@ -326,7 +320,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 /* footer */
@@ -363,4 +356,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
